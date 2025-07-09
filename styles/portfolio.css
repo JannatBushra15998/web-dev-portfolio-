@@ -121,7 +121,6 @@ nav ul{
 /* main styles */
 main{
     max-width: 1440px;
-    max-height: 550px;
     margin: 0 auto;
 }
 main section{
@@ -184,4 +183,38 @@ main section{
 }
 .resume-dwnld-cv{
     margin: 50px ;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color:#757575;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+footer textarea{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color:#757575;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
